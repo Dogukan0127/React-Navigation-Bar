@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+:root{
+  --color: #70E1E8;
+  --font-size: 25px;
+  --hover-color: red;
+  --font-weight: 500;
+  --font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box{
+  height: 90px;
+  width: 100%;
+  background-color: var(--color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.boxes {
+  height: 90px;
+  width: 80%;
+  background-color: var(--color);
+  margin-left: 10%;
+}
+
+
+.logo p {
+  float: left;
+  list-style: none;
+  font-size: var(--font-size);
+  justify-content: flex-start;
+  margin-left:5%;
+  margin-top: 30px;
+  font-family: var(--font-family);
+}
+
+.logo p a{
+  text-decoration: none;
   color: white;
+  font-weight: var(--font-weight);
 }
 
-.App-link {
-  color: #61dafb;
+.logo p a:hover{
+  color:var(--hover-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu ul li {
+  float: right;
+  list-style: none;
+  font-size: var(--font-size);
+  justify-content: flex-end;
+  margin-right:7%;
+  margin-top: 30px;
+  font-family: var(--font-family);
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: var(--font-weight);
+}
+
+.menu ul li a:hover{
+  color:var(--hover-color);
 }
