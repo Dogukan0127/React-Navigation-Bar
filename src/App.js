@@ -1,21 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import './Components/Logo/Logo.jsx';
+import Logo from './Components/Logo/Logo.jsx';
+import './Components/Menu/Menu.jsx';
+import Menu from './Components/Menu/Menu.jsx';
 
 function App() {
   return (
-    <div className="box">
-      <div className="boxes">
-        <div className="logo">
-          <p><a href="#">Logo</a></p>
-        </div>
-        <div className="menu">
-          <ul>
-            <li><a href="#">HomePage</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">Search</a></li>
-          </ul>
-        </div>
+    <div className="Nav-container">
+      <div className="Nav-Items">
+
+        <Logo />
+        <Menu />
+
       </div>
     </div>
   );

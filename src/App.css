@@ -1,67 +1,67 @@
 :root{
-  --color: #70E1E8;
-  --font-size: 25px;
-  --hover-color: red;
-  --font-weight: 500;
-  --font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-}
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.box{
-  height: 90px;
-  width: 100%;
-  background-color: var(--color);
-}
-
-.boxes {
-  height: 90px;
-  width: 80%;
-  background-color: var(--color);
-  margin-left: 10%;
-}
-
-
-.logo p {
-  float: left;
-  list-style: none;
-  font-size: var(--font-size);
-  justify-content: flex-start;
-  margin-left:5%;
-  margin-top: 30px;
-  font-family: var(--font-family);
-}
-
-.logo p a{
-  text-decoration: none;
-  color: white;
-  font-weight: var(--font-weight);
-}
-
-.logo p a:hover{
-  color:var(--hover-color);
-}
-
-.menu ul li {
-  float: right;
-  list-style: none;
-  font-size: var(--font-size);
-  justify-content: flex-end;
-  margin-right:7%;
-  margin-top: 30px;
-  font-family: var(--font-family);
-}
-
-.menu ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: var(--font-weight);
-}
-
-.menu ul li a:hover{
-  color:var(--hover-color);
-}
+    --color: #70E1E8;
+    --font-size: 25px;
+    --hover-color: red;
+    --font-weight: 500;
+    --font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .Nav-container{
+    height: 90px;
+    width: 100%;
+    background-color: var(--color);
+  }
+  
+  .Nav-Items {
+    height: 90px;
+    width: 80%;
+    background-color: var(--color);
+    margin-left: 10%;
+  }
+  
+  
+  .Logo p {
+    float: left;
+    list-style: none;
+    font-size: var(--font-size);
+    justify-content: flex-start;
+    margin-left:5%;
+    margin-top: 30px;
+    font-family: var(--font-family);
+  }
+  
+  .Logo p a{
+    text-decoration: none;
+    color: white;
+    font-weight: var(--font-weight);
+  }
+  
+  .Logo p a:hover{
+    color:var(--hover-color);
+  }
+  
+  .Menu ul li {
+    float: right;
+    list-style: none;
+    font-size: var(--font-size);
+    justify-content: flex-end;
+    margin-right:7%;
+    margin-top: 30px;
+    font-family: var(--font-family);
+  }
+  
+  .Menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: var(--font-weight);
+  }
+  
+  .Menu ul li a:hover{
+    color:var(--hover-color);
+  }
